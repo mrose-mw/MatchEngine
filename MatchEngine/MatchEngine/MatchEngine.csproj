@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\Engine.cs" />
+    <Compile Include="BL\Player.cs" />
+    <Compile Include="BL\PlayerList.cs" />
+    <Compile Include="Enums\Formation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BL\Team.cs" />
+    <Compile Include="Tactics.cs" />
+    <Compile Include="TeamSelection.cs" />
     <None Include="Settings.StyleCop" />
   </ItemGroup>
   <ItemGroup>
