@@ -7,7 +7,7 @@ namespace MatchEngine
     /// <summary>
     /// The team selection.
     /// </summary>
-    public abstract class TeamSelection
+    public class TeamSelection
     {
 
         /// <summary>
@@ -37,7 +37,7 @@ namespace MatchEngine
         /// <param name="tactics">
         /// The tactics.
         /// </param>
-        protected TeamSelection(PlayerList playerList, Formation formation, Tactics tactics)
+        public TeamSelection(PlayerList playerList, Formation formation, Tactics tactics)
         {
             this.playerList = playerList;
             this.formation = formation;

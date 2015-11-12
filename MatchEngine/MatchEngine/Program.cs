@@ -15,10 +15,9 @@ namespace MatchEngine
         /// <param name="args">
         /// The arguments.
         /// </param>
-        static void Main(TeamSelection[] args)
+        static void Main(string[] args)
         {
-            Engine engine = new Engine();
-            engine.InitializeGame(args[0], args[1]);
+            //Engine engine = new Engine();
         }
 
     }

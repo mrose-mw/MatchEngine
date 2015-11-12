@@ -41,9 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\Ball.cs" />
+    <Compile Include="BL\BallType.cs" />
     <Compile Include="BL\Engine.cs" />
+    <Compile Include="BL\Game.cs" />
+    <Compile Include="BL\GoalArea.cs" />
     <Compile Include="BL\Player.cs" />
     <Compile Include="BL\PlayerList.cs" />
+    <Compile Include="BL\PlayingArea.cs" />
     <Compile Include="Enums\Formation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
